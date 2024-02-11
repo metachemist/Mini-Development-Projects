@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(221, 216, 236);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(51, 29, 76);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 23px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(157, 157, 209);
+    margin: 0 23px;
+    font-size: 1.02rem;
+}
+
+main hr {
+    border:0;
+    background: rgb(51, 29, 76);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 08px;
+    align-items: center;
+}
+
+.firstSection>div {
+    /* only first div gets all properties*/
+    font-size: large;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.leftSection {
+    color: rgb(51, 29, 76);
+    background-color: rgb(221, 216, 236);
+    width: 40%;
+}
+
+.rightSection img {
+    width: 75%;
+    margin: 25px 9px;
+}
+
+.firstSection div {
+    margin-top: 20x;
+}
+
+.text-purple {
+    color: rgb(88, 62, 149);
+}
+
+#element{
+    color: rgb(88, 62, 149);    
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    color: rgb(51, 29, 76);
+    height: 90vh;
+}
+
+.secondSection h2{
+    font-size: 1.5rem;
+}
+
+.secondSection .box{
+    background: rgb(51, 29, 76);
+    width: 80vw;
+    height: 1.2px;
+    margin: 50px 0px; /*top/bottom 20 left/right 0*/
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 50px;
+    width: 1.2px;
+    background: rgb(51, 29, 76);
+    margin: 0px 105px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 16px;
+    
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: rgb(88, 62, 149);
+    width: 150px;
+    font-size: 10px;
+}
+/*
+#image01{
+    width: 35px;
+    margin: 10px 9px;
+}
+#image02{
+    width: 100px;
+    margin: 20px 2px;
+}
+#image03{
+    width: px;
+    margin: 10px 9px;
+}
+#image04{
+    width: 35px;
+    margin-top: 10px;
+}
+#image05{
+    width: 35px;
+    margin: 10px 9px;
+}
+*/
