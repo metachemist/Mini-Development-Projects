@@ -1,4 +1,4 @@
 # Website Development Basics
-Mini webpage-based projects.
+Mini Development projects.
 <br>
 Author - Hafsa Shahid.
